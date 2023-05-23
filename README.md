@@ -11,6 +11,7 @@ During the project, the following challenges were encountered:
 - Applying label encoding and one-hot encoding techniques and merging dataframes to obtain a comprehensive dataset with all the required information.
 - Dealing with the loss of data after merging or adding columns.
 - Handling a significant number of "Unknown" values and NaNs in the dataset.
+
 ### Solutions:
 - To address these challenges, the following approaches were taken:
 - Conducting effective online searches for assistance and guidance on specific issues.
@@ -40,9 +41,6 @@ During the project, the following challenges were encountered:
 - GridSearchCV for hyperparameter tuning
 - Visualization of decision tree using export_graphviz
 
-# Technologies:
-- The project was implemented using the following technologies and libraries:
-
 # Python programming language
 - Pandas and NumPy for data manipulation and analysis
 - Jupyter Notebook for code development and documentation
@@ -57,5 +55,21 @@ During the project, the following challenges were encountered:
 - Report writing and documentation
 - Identification of parameters leading to crashes
 - Understanding the time and date patterns of crashes
-Getting Started:
 
+# Modelling 
+- The models used include RandomClassifier, Grid Search amongst others so as to give correct predictions
+
+Project Findings:
+- The most important feature that played a big role in classifying was 'PRIM_CONTRIBUTORY_CAUSE'.
+  - 'UNABLE TO DETERMINE', 'FAILING TO YIELD RIGHT-OF-WAY',
+ - 'FOLLOWING TOO CLOSELY', 'NOT APPLICABLE',
+- 'IMPROPER OVERTAKING/PASSING', 'IMPROPER BACKING',
+ - 'FAILING TO REDUCE SPEED TO AVOID CRASH', 'IMPROPER LANE USAGE',
+-  'IMPROPER TURNING/NO SIGNAL', 'DRIVING SKILLS/KNOWLEDGE/EXPERIENCE',
+ - 'WEATHER', 'DISREGARDING TRAFFIC SIGNALS',
+ etc.
+
+# Suggestions for future advancements 
+- Additionally, considering binning and clustering techniques can be beneficial for analyzing crash locations and identifying patterns or clusters of crashes in specific areas. This can offer insights into geographical aspects related to traffic accidents.
+
+- Furthermore, there is room for improvement in the model itself. It is advisable to explore and implement enhancements to enhance the model's performance and predictive accuracy. This may involve experimenting with different algorithms, feature engineering techniques, hyperparameter tuning, or exploring ensemble methods to achieve better results.
