@@ -28,9 +28,6 @@ During the project, the following challenges were encountered:
 # Project Findings:
 - Based on the analysis conducted, the most important feature in classifying the crashes was found to be the "PRIM_CONTRIBUTORY_CAUSE" parameter. The specific causes, such as "Following too closely," "Failing to yield right-of-way," and "Improper lane usage," played significant roles in determining the crash type.
 
-# Methods Used:
-- The following methods and techniques were employed in this project:
-
 # Descriptive statistics
 - Data cleaning and preprocessing
 - Data exploration and visualization
