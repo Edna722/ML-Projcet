@@ -8,21 +8,20 @@ The goal of this project is to create a model that predicts and classifies diffe
 # Problems:
 During the project, the following challenges were encountered:
 
-# Applying label encoding and one-hot encoding techniques and merging dataframes to obtain a comprehensive dataset with all the required information.
+- Applying label encoding and one-hot encoding techniques and merging dataframes to obtain a comprehensive dataset with all the required information.
 - Dealing with the loss of data after merging or adding columns.
 - Handling a significant number of "Unknown" values and NaNs in the dataset.
-## Solutions:
+### Solutions:
 - To address these challenges, the following approaches were taken:
-
-# Conducting effective online searches for assistance and guidance on specific issues.
+- Conducting effective online searches for assistance and guidance on specific issues.
 - Experimenting with the code and making necessary modifications to ensure proper functionality and data handling.
 - Recommendations for further developments:
 - Based on the project findings, the following recommendations are suggested for further development:
-
-# Incorporate additional datasets related to vehicles and drivers/passengers and combine them with the existing Traffic Crash dataset for a more comprehensive analysis.
+- Incorporate additional datasets related to vehicles and drivers/passengers and combine them with the existing Traffic Crash dataset for a more comprehensive analysis.
 - Explore the possibilities of binning and clustering the data to identify crash locations and patterns.
 - Continuously work on improving the predictive model's accuracy and performance.
-- Project Intro/Objective:
+
+# Project Intro/Objective:
 - The main objective of this project is to determine whether a crash is a "Rear End" crash or not. To achieve this, DecisionTreeClassifier and RandomForestClassifer models are used to classify the crashes based on various parameters, such as traffic control devices, weather conditions, lighting conditions, roadway conditions, and contributory causes.
 
 # Project Findings:
